@@ -34,14 +34,14 @@ void loop() {
 		spin_random();
 		scan_time = FAST_SCAN_TIME;
 	} else if(cm == 30){
-		Serial.print("DANS!");
-		stop();
-		delay(1000);
-		spin_left();
-		delay(3000);
-		spin_right();
-		delay(3000);
-		stop();
+//		Serial.print("DANS!");
+//		stop();
+//		delay(1000);
+//		spin_left();
+//		delay(3000);
+//		spin_right();
+//		delay(3000);
+//		stop();
 	}else {
 		go_forward();
 		scan_time = FAST_SCAN_TIME;

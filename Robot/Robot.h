@@ -26,6 +26,7 @@
 int scan_time;
 
 //end of add your includes here
+
 #ifdef __cplusplus
 extern "C" {
 #endif
